@@ -5,19 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning Git and Github</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
 </head>
 <body>
     <!-- <h1>Learning Git</h1> -->
     <header id="header">
         <div class="container">
             <h2>Logo</h2>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Service</a></li>
-            <li><a href="">Gallery</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
+            <ul id="nav">
+                <li><a href="#banner">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <div class="bar"  >
+                <div id="open">
+                    <i class="fas fa-bars fa-2x" onclick="openNav()" id="bar"></i>
+                </div>
+                <div id="close">
+                    <i id="closebar" class="fas fa-times fa-2x" onclick="closeNav()"></i>
+                </div>
+            </div>
+           
         </div>
     </header>
     <section id="banner">
@@ -27,6 +37,49 @@
             <button>Read More</button>
         </div>
     </section>
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p class="aboutp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid impedit aut, praesentium veniam laudantium nemo iusto.</p>
+            <div class="content">
+                <div class="left">
+                    <img src="image/photo_banner.jpg" alt="About image">
+                </div>
+                <div class="right">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste vero adipisci quod temporibus repellendus voluptatem accusantium blanditiis molestiae voluptate dicta! Nam debitis, iste deserunt praesentium, aperiam dolorem corrupti culpa quam ullam amet aliquam iure ipsum ducimus quis cum. Illum id unde, placeat vero ut necessitatibus dolorum alias. Ullam maiores fuga voluptate, laudantium inventore animi iste enim. Quibusdam, aperiam? Vel consectetur ex consequuntur fugit minus alias dolorem. Consequuntur incidunt sed. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum explicabo provident cupiditate ratione labore pariatur aut, et, vitae ab natus laborum tenetur deleniti quas, assumenda illum modi minima vel nisi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="content">
+                <div class="item">
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet perferendis consectetur explicabo aspernatur incidunt ipsam quod perspiciatis sint rem similique culpa, voluptatem reiciendis error aliquam modi repellat expedita! Velit, qui?</p>
+                    <button>Read More</button>
+                </div>
+                <div class="item">
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet perferendis consectetur explicabo aspernatur incidunt ipsam quod perspiciatis sint rem similique culpa, voluptatem reiciendis error aliquam modi repellat expedita! Velit, qui?</p>
+                    <button>Read More</button>
+                </div>
+                <div class="item">
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet perferendis consectetur explicabo aspernatur incidunt ipsam quod perspiciatis sint rem similique culpa, voluptatem reiciendis error aliquam modi repellat expedita! Velit, qui?</p>
+                    <button>Read More</button>
+                </div>
+                <div class="item">
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet perferendis consectetur explicabo aspernatur incidunt ipsam quod perspiciatis sint rem similique culpa, voluptatem reiciendis error aliquam modi repellat expedita! Velit, qui?</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
     
+    <script src="script.js"></script>
+    <script src="js/all.min.js"></script>
 </body>
 </html>
